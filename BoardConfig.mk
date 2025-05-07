@@ -127,9 +127,6 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 #for cali mode use boot.img
 BOARD_CALIMODE_USE_BOOTIMG := true
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2022-06-05
-
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
@@ -151,7 +148,7 @@ TW_INCLUDE_REPACKTOOLS := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 TW_HAS_NO_RECOVERY_PARTITION := true
-#TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/soc/soc:mm/63100000.dsi/63100000.dsi.0/display/panel0/sprd_backlight/brightness"
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TW_EXTRA_LANGUAGES := true
@@ -165,6 +162,12 @@ TW_NO_USB_STORAGE := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_INCLUDE_LPTOOLS := true
 TW_DEVICE_VERSION := RMX3235 by Ridho Aflahal
+
+# Statusbar icons flags
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := 50
+TW_CUSTOM_CLOCK_POS := 300
+TW_CUSTOM_BATTERY_POS := 800
 
 # Decryption
 TW_INCLUDE_CRYPTO := false
