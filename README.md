@@ -20,4 +20,4 @@ Front Camera | 5 MP
 Specifications in detail
 See [We look there](https://www.gsmarena.com/realme_narzo_50i-11123.php)
 
-Original RMX 3231 repo See [Github](https://github.com/depesh1977/Realme)
+Original RMX 3231 twrp tree See [Github](https://github.com/depesh1977/Realme)
