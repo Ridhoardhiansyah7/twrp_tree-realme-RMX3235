@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from RMX3231 device
+# Inherit from RMX3235 device
 $(call inherit-product, device/realme/RMX3235/device.mk)
 
 # Release name
